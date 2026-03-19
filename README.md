@@ -16,3 +16,7 @@ pnpm test
     ✕ PUT 401 is fine (json string) (9 ms)
     ✕ PUT 401 is fine (form data) (7 ms)
 ```
+
+## Wrangler
+
+This example uses wrangler (miniflare, and friends), which as of https://github.com/cloudflare/workers-sdk/pull/12927 has bundled `undici@7.24.4`.
